@@ -8,7 +8,7 @@ Each piece builds on the last: raw statistics implemented without libraries, the
 
 ## Project Structure
 
-```
+```text
 python-data-foundations/
 ├── 01_stats_cli.py              # Mean/median/mode from scratch (no external libraries)
 ├── 02_numpy_outlier_detection.py  # Rolling-window + z-score outlier detection on sensor data
@@ -23,7 +23,7 @@ python-data-foundations/
 ## What Each Script Covers
 
 | # | Topic | Highlights |
-|---|-------|------------|
+| --- | ------- | ------------ |
 | 1 | Statistics CLI | Implements `mean`, `median`, and `mode` from first principles — no NumPy/statistics module — to reinforce the underlying algorithms |
 | 2 | NumPy Outlier Detection | Rolling mean/std over a sliding window, plus z-score thresholding (\|z\| > 2) across multiple sensor features to flag anomalous readings |
 | 3 | Pandas Basics | Loading, filtering, indexing, and aggregating tabular data |
